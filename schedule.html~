@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Class Registration</title>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+	<link rel="stylesheet" href="css/screen.css" />
+</head>
+<body>
+	<section class="header">
+		<header>
+			<h1 class="home">Registration</h1>
+		<picture>
+			<source srcset="img/myiit-logo.png">
+			<img src="img/myiit-logo.png" alt="myIIT logo">
+		</picture>
+		</header>
+	</section>
+	<nav>
+		<ul>
+		<li><a href="welcome.html">Home Page</a></li>
+		<li><a href="registration.html">Academics</a></li>
+		<li><a href="finance.html">Finance</a></li>
+		<!-- Gmail / Blackboard Below -->
+		<li><a href="https://mail.google.com">Gmail</a></li>
+		<li><a href="https://blackboard.iit.edu">Blackboard</a></li>
+		<li><a href="index.html">Logout</a></li>
+	</nav>
+	<section class="schedule">
+	<h3>Please note that you are NOT offically registered for a class if the status in watilisted.</h3>
+	<table>
+	<tr>
+	<th>Status</th>
+	<th>Action</th>
+	<th>CRN</th>
+	<th>Subject</th>
+	<th>Course</th>
+	<th>Credit</th>
+	<th>Title</th>
+	</tr>	
+	
+	<tr>
+	<td>Status</td>
+	<td>Action</td>
+	<td>CRN</td>
+	<td>Subject</td>
+	<td>Course</td>
+	<td>Credit</td>
+	<td>Title</td>
+	</tr>				
+	</section>
+	
+	
+		<script src="somethinghere.js"> </script>
+		
+</body>
+</html>

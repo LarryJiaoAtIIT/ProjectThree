@@ -51,11 +51,8 @@ table {
 
      /*.....................*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
 html, body{
-	background-color:#D1D0CE;
-	font-family:Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .headwrapper {
@@ -71,11 +68,10 @@ html, body{
 }
 .name { /* Header, my.iit.edu text,  */
 	text-align: center;
-	font-size: 5em;
+	font-size: 3em;
 	text-decoration: none;
 	word-spacing:-0.25em;
 	margin-top: -1em;
-	overflow:hidden;
   }
 
 
@@ -149,6 +145,9 @@ table {
 	border-collapse: collapse;
 }
 
+th, td {
+	padding: 10px;
+}
 
 label {
     /* To make sure that all labels have the same size and are properly aligned */

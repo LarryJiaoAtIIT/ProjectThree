@@ -9,7 +9,7 @@
 <body>
 	<section class="header">
 		<header>
-			<h1 class="home">Academics</h1>
+			<h1 class="home">Registration</h1>
 		<picture>
 			<source srcset="img/myiit-logo.png">
 			<img src="img/myiit-logo.png" alt="myIIT logo">
@@ -27,7 +27,6 @@
 		<li><a href="index.html">Logout</a></li>
 	</nav>
 	<section class="registration-id">
-<<<<<<< HEAD
 	<span>Academic Profile</span>
 	<ul>
 	<li>Student Grade</li>
@@ -40,36 +39,13 @@
 	<section class="registration-tools">
 	<span>Registration Tools</span>
 	<ul>
-	<li>Register for Class</li>
 	<li>Look Up classes</li>
+	<li>Register for Class</li>
 	</ul>
 
-=======
-		<!-- Contains a drop-down menu, shows the Registration PIN for the varying semesters -->'
-		
-	</section>
-	<section class="degree-works">
-	<ul>
-		<li><a href="https://degreeworks.iit.edu/dwdev/IRISLink.cgi?CAS=ENABLED&SERVICE=LOGON&SCRIPT=SD2WORKS&">Undergraduate Degree Works</a></li>
-		<li><a href="https://degreeworks-g.iit.edu/IRISLink.cgi?CAS=ENABLED&SERVICE=LOGON&SCRIPT=SD2WORKS&">Graduate Degree Works</a></li>
-	<ul>
-	</section>
-	<section class="registration-tools">
-<<<<<<< HEAD
-		
-=======
-	<ul>
-		<li><a href="">Search Classes</a></li>
-		<li><a href=" ">Add/Drop Classes</a></li> 
-		
-		<!-- Add/Drop Classes should allow you to check status, time, & location.  -->
-	</ul>
->>>>>>> 94a88de1f755098b07c1db756526a3f30fc3bf57
->>>>>>> 8396a1a104208d2160e7c3e829299756128fdc7a
 	</section>
 	
 		<script src="somethinghere.js"> </script>
-	<
 		
 </body>
 </html>
