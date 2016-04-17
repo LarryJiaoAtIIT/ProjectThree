@@ -123,7 +123,7 @@ section.content1 > h1.title, section.content2 > h1.title{	/* First set of Text i
 	color:white;
 	padding-bottom:0.5em;
 }
-section.content1 > h2.headline, li.grade >  a, li.grade > h2{	/* Second set of text in box */
+section.content1 > h2.headline, section.content1 > h2.headline > a, li.grade >  a, li.grade > h2{	/* Second set of text in box */
 	font-size:1.2em;
 	color:#cccccc;
 	padding-bottom:0.45em;
