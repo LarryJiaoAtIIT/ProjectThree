@@ -36,7 +36,6 @@ h1.home{
 	margin-top:0.5em;
 }
 
-
 /*	Navigation Bar -- Welcome, Class Registration, Academics, Finance, GMail, Blackboard*/
 	nav{
 	background-color:#333;
@@ -59,18 +58,4 @@ h1.home{
 		background-color:#cc0000;
 	}
 
-/******* Boxes for options ****/
-
-html body div.news{
-
-	border: 2px solid black;
-	padding: 10px;
-	margin: 2em;
-}
-
-div.news ul li{
-	list-style:none;
-	display:inline;
-}
-
-
+/*			*/
