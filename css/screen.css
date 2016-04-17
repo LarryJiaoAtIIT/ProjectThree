@@ -16,11 +16,20 @@ input,select{vertical-align:middle}
 
 /*	-	-	-	-	-	-	-	-	-	-	*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
 html, body{
 	background-color:#111111;	/* 	#D1D0CE	*/
 	font-family:Roboto, sans-serif;
+
 }
+a:link{
+		color:#cccccc;
+		text-decoration:none;
+}
+ul{
+	list-style-type:none;
+	}	
+
+/*	Header Bar */
 .header img{
  	background-color:white;
 }
@@ -39,16 +48,17 @@ h1.home{
 
 /*	Navigation Bar -- Welcome, Class Registration, Academics, Finance, GMail, Blackboard*/
 .navigation {
-  /* critical sizing and position styles */
   width: 100%;
   height: 100%;
   position: fixed;
   margin: auto;
   z-index: 0;
   
-  /* non-critical appearance styles */
   list-style: none;
   background: #111;
+   -moz-box-shadow:		0px 0px 5px 0px #000000;
+   -webkit-box-shadow: 0px 0px 5px 0px #000000;
+    box-shadow:       		  0px 0px 5px 0px #000000;
   
 }
 
@@ -63,7 +73,6 @@ h1.home{
 }
 
 .nav-item a {
-  /* non-critical appearance styles */
   display: block;
   padding: 1em;
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
@@ -77,51 +86,61 @@ h1.home{
   color: #c74438;
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
 }
+/* ------------------------------------------------ */
 
-.nav-trigger {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
+/* Content Boxes - Will Provide Boxes with Links inside */
+
+section.content1{	/* Box 1 next to Nav-bar */
+	border: 0.1em solid #a20000;
+	border-radius: 2em;
+	background-color:#222222;
+	padding: 1em;
+	margin: 0 auto;
+	margin-left:14em;
+	margin-top: 1%;
+	width:35%;
+	height:40em;
+	position:absolute;
+	overflow:hidden;
+	
+}
+section.content2{ /* Box 2 next to Box 1; Needs to readjust for Media Queries */
+	border: 0.1em solid #a20000;
+	border-radius: 2em;
+	background-color:#222222;
+	padding: 1em;
+	margin: 0 auto;
+	margin-left:52%;
+	margin-top: 1em;
+	width:30%;
+	height:40em;
+	position:relative;
+	
+	
+}
+section.content1 > h1.title, section.content2 > h1.title{	/* First set of Text in Box */
+	font-size:2em;
+	color:white;
+	padding-bottom:0.5em;
+}
+section.content1 > h2.headline, li.grade >  a, li.grade > h2{	/* Second set of text in box */
+	font-size:1.2em;
+	color:#cccccc;
+	padding-bottom:0.45em;
+	list-style: none;
+	text-decoration:none;
+	
 }
 
-label[for="nav-trigger"] {
-    /* ... previous styles here... */
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
-    background-size: contain;
-}
-
-/* Make the Magic Happen */
-.nav-trigger + label, .site-wrap {
-  transition: left 0.2s;
-}
-
-.nav-trigger:checked + label {
-  left: 215px;
-}
-
-.nav-trigger:checked ~ .site-wrap {
-  left: 200px;
-  box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
-}
-
-body {
-    /* Without this, the body has excess horizontal scroll when the menu is open */
-  overflow-x: hidden;
-}
-/******* Boxes for options ****/
-
-html body div.news{
-
-	border: 2px solid black;
-	padding: 10px;
-	margin: 2em;
-}
-
-div.news ul li{
-	list-style:none;
-	display:inline;
+section.content1 > p.preview{	/* Third set of text in box */
+	font-size:1.1em;
+	line-height:1.1em;
+	color:#aaaaaa;
+	padding-bottom:2em;
 }
 
 
+/*Schedule.html*/
+th{
+	color:white;
+}
