@@ -71,7 +71,7 @@ h1.home{
 
 /* Navigation Menu - List items */
 .nav-item {
-  width:12.5em;
+  width:15%;
   border-top: 1px solid #111;
   border-bottom: 1px solid #000;
    -moz-box-shadow:		0px 3px 5px 0px #000000;
@@ -103,7 +103,7 @@ section.content1{	/* Box 1 next to Nav-bar */
 	background-color:#222222;
 	padding: 1em;
 	margin: 0 auto;
-	margin-left:14em;
+	margin-left:16%;
 	margin-top: 1%;
 	width:35%;
 	height:40em;
@@ -117,11 +117,11 @@ section.content2{ /* Box 2 next to Box 1; Needs to readjust for Media Queries */
 	background-color:#222222;
 	padding: 1em;
 	margin: 0 auto;
-	margin-left:52%;
-	margin-top: 1em;
-	width:30%;
+	margin-left:55%;
+	margin-top: 1%;
+	width:35%;
 	height:40em;
-	position:relative;
+	position:absolute;
 	
 	
 }
