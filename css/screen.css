@@ -164,8 +164,9 @@ img.alert{
 	
 }
 /*Classregister.html*/
-option{
+.term{
 	font-family:Roboto, sans-serif;
+	margin-left:46.7%;
 }
 
 label{
@@ -175,6 +176,51 @@ label{
 
 
 /*Schedule.html*/
-th{
-	color:white;
+
+section.schedule{
+	margin-left:15%;
 }
+
+
+
+section.schedule table tbody{
+  	position: absolute;
+  	width: 70%;
+  	height:auto;
+  	font-size: 1em;
+  	line-height: 2em;
+  	color: #CCCCCC;
+  	border-radius: 10px;
+  	padding: 1em;
+  	border: 0.1em solid #a20000;
+	background-color: #222222;
+	
+}
+
+
+section.schedule table{
+	margin-left:1em;
+}
+
+section.schedule table tbody tr{
+	display: inline-block;
+}
+
+section.schedule table tbody tr th{
+	padding:2em;
+	background-color:
+	background-radius:0.8em;
+}
+
+section.schedule table tbody tr.classdetails{
+	display: block;
+	margin-top: -2em;
+	background-color:#333333;
+}
+section.schedule table tbody tr.classdetails td{
+	padding-top:0.5em;
+	padding-left:1.7em;
+	padding-bottom:2em;
+}
+
+
