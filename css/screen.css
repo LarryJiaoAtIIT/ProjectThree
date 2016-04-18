@@ -14,7 +14,7 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-/*	-	-	-	-	-	-	-	-	-	-	*/
+/*	-	-	-	-	Universal CSS, for ALL Webpages After Index.html	-	-	-	-	-	-	*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 html, body{
 	background-color:#111111;	/* 	#D1D0CE	*/
@@ -130,8 +130,8 @@ section.content1 > h1.title, section.content2 > h1.title{	/* First set of Text i
 	color:white;
 	padding-bottom:0.5em;
 }
-section.content1 > h2.headline, section.content1 > h2.headline > a,
- li.grade >  a, li.grade > h2{	/* Second set of text in box */
+section.content1 > h2.headline, section.content2 > h2.headline, 
+section.content1 > h2.headline > a, li.grade >  a, li.grade > h2{	/* Second set of text in box */
 	font-size:1.2em;
 	color:#cccccc;
 	padding-bottom:0.45em;
@@ -140,11 +140,28 @@ section.content1 > h2.headline, section.content1 > h2.headline > a,
 	
 }
 
-section.content1 > p.preview{	/* Third set of text in box */
+section.content1 > p.preview, section.content2 > p.preview{	/* Third set of text in box */
 	font-size:1.1em;
 	line-height:1.1em;
 	color:#aaaaaa;
 	padding-bottom:2em;
+}
+/*Welcome.html*/
+div#awcc1460997599263{
+	border-radius:0.8em;
+	padding-bottom:1em;
+}
+img.alert{
+	width:100%;
+	height:auto;
+	border-radius:0.8em;
+}
+/*academics.html*/
+.academic-calendar{
+	border-radius:0.8em;
+	width:100%;
+	height:90%;
+	
 }
 /*Classregister.html*/
 option{
