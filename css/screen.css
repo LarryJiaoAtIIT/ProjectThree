@@ -25,6 +25,13 @@ a:link{
 		color:#cccccc;
 		text-decoration:none;
 }
+
+a:visited{
+		color:#A9A9A9;
+		text-decoration:none;
+}
+
+
 ul{
 	list-style-type:none;
 	}	
@@ -123,7 +130,8 @@ section.content1 > h1.title, section.content2 > h1.title{	/* First set of Text i
 	color:white;
 	padding-bottom:0.5em;
 }
-section.content1 > h2.headline, section.content1 > h2.headline > a, li.grade >  a, li.grade > h2{	/* Second set of text in box */
+section.content1 > h2.headline, section.content1 > h2.headline > a,
+ li.grade >  a, li.grade > h2{	/* Second set of text in box */
 	font-size:1.2em;
 	color:#cccccc;
 	padding-bottom:0.45em;
@@ -137,6 +145,15 @@ section.content1 > p.preview{	/* Third set of text in box */
 	line-height:1.1em;
 	color:#aaaaaa;
 	padding-bottom:2em;
+}
+/*Classregister.html*/
+option{
+	font-family:Roboto, sans-serif;
+}
+
+label{
+	font-family:Roboto, sans-serif;
+	color:#cccccc;
 }
 
 

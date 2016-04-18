@@ -129,24 +129,18 @@ body{
 	margin-bottom: 0.5em;
 }
 .form{
-	  margin: 0 auto;
-  	position: relative;
+	 margin: 0 35% auto;
+  	position: absolute;
   	width: 30%;
   	height:auto;
-  	font-size: 1em;
   	line-height: 2em;
   	color: #FF0000;
-  	border-radius: 10px;
+  	border-radius: 0.8em;
   	padding: 1em;
   	border: 5px solid #C11B17 ;
 	  background-color: #FAFAFA;
 	  box-sizing: border-box;
   	
-}
-
-table {
-	border: 1px solid black;
-	border-collapse: collapse;
 }
 
 
@@ -159,13 +153,13 @@ label {
 
 .form button{
 	margin:1em;
-	margin-left: 11.5em;
+	margin-left: 70%;
 }
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    .headwrapper { width:67%; }
-    #nav { width:30%; margin-left:3%;}  
+    .headwrapper { width:100%; }
+    #nav { width:45%; margin-left:3%;}  
 }
 
 /* Tabled Portrait */
