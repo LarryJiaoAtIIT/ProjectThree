@@ -14,10 +14,10 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-/*	-	-	-	-	Universal CSS, for ALL Webpages After Index.html	-	-	-	-	-	-	*/
+/*	-	-	-	-	Universal CSS, for ALL/MOST Webpages After Index.html	-	-	-	-	-	-	*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-html, body{
-	background-color:#111111;	/* 	#D1D0CE	*/
+body.inside{
+	background-color:#111111;	
 	font-family:Roboto, sans-serif;
 
 }
@@ -36,7 +36,7 @@ ul{
 	list-style-type:none;
 	}	
 
-/*	Header Bar */
+/*	Header 	------------------------------------------------------------------------------------*/
 .header img{
  	background-color:white;
 }
@@ -53,7 +53,7 @@ h1.home{
 }
 
 
-/*	Navigation Bar -- Welcome, Class Registration, Academics, Finance, GMail, Blackboard*/
+/*	Navigation Bar	------------------------------------------------------------------------------*/
 .navigation {
   width: 100%;
   height: 100%;
@@ -93,9 +93,7 @@ h1.home{
   color: #c74438;
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
 }
-/* ------------------------------------------------ */
-
-/* Content Boxes - Will Provide Boxes with Links inside */
+/* Content Boxes - Will Provide Boxes with Links inside  ------------------------------------------------*/
 
 section.content1{	/* Box 1 next to Nav-bar */
 	border: 0.1em solid #a20000;
@@ -146,24 +144,109 @@ section.content1 > p.preview, section.content2 > p.preview{	/* Third set of text
 	color:#aaaaaa;
 	padding-bottom:2em;
 }
-/*Welcome.html*/
-div#awcc1460997599263{
+
+
+/*	index.html	-------------------------------------------------------------------------------------------*/
+body.outside{
+		background-color:#D1D0CE;
+}
+img.logo{
+	width:8%;
+	height:auto;
+	
+}
+.headwrapper {
+	background-color:#111111;
+	width:100%;
+  padding-bottom:0.5em;
+}
+
+.name { /* Header, my.iit.edu text,  */
+	text-align: center;
+	font-family:Roboto,sans-serif;
+	font-size: 5em;
+	text-decoration: none;
+	word-spacing:-0.25em;
+	margin-top: -1em;
+	
+	overflow:hidden;
+  }
+
+
+
+.headwrapper .name .first, 
+.headwrapper .name .third{
+	color:white;
+	text-decoration: none;
+	
+	
+	
+}
+
+.headwrapper .name .second{
+	color:#A20000;
+	text-decoration: none;
+
+
+}
+
+
+body{
+	background-color:#D1D0CE;
+}
+.bodywrapper h2{
+	font-family:Roboto,sans-serif;
+	font-size: 4em;
+	color: #A20000;
+	text-align:center;
+	margin-top: 0.8em;
+	margin-bottom: 0.2em;
+}
+.form{
+	 margin: 0 35% auto;
+  	position: absolute;
+  	width: 30%;
+  	height:auto;
+  	line-height: 2em;
+  	border-radius: 0.8em;
+  	padding: 1em;
+  	border: 0.3em solid #C11B17 ;
+	  background-color: #FAFAFA;
+	  box-sizing: border-box;
+  	
+}
+
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 8em;
+}
+
+.form button{
+	margin-left: 57.75%;
+}
+
+
+/*Welcome.html	--------------------------------------------------------------------------------------*/
+div#awcc1460997599263{	/*	Weather Widget	*/
 	border-radius:0.8em;
 	padding-bottom:1em;
 }
-img.alert{
+img.alert{	/* IIT Today Alert Image	*/
 	width:100%;
 	height:auto;
 	border-radius:0.8em;
 }
-/*academics.html*/
+
+/*academics.html	-----------------------------------------------------------------------------------*/
 .academic-calendar{
 	border-radius:0.8em;
 	width:100%;
 	height:90%;
 	
 }
-/*Classregister.html*/
+/*Classregister.html	--------------------------------------------------------------------------------*/
 .term{
 	font-family:Roboto, sans-serif;
 	margin-left:46.7%;
@@ -175,7 +258,7 @@ label{
 }
 
 
-/*Schedule.html*/
+/*Schedule.html	-----------------------------------------------------------------------------------------*/
 
 section.schedule{
 	margin-left:15%;

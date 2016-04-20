@@ -5,11 +5,11 @@
 <head> 
 	<meta charset="UTF-8"> 
      	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"> 
- 	<link rel="stylesheet" type="text/css" href="css/style.css"> 
- 	<title>IIT Photoshare Site</title> 
+ 	<link rel="stylesheet" type="text/css" href="css/screen.css"> 
+ 	<title>myIIT Portal</title> 
 </head>
 
-<body>
+<body class="outside">
 <div class="headwrapper">
 	<a href="index.html"><img class="logo" src="img/myiit-logo.png" alt="IIT Logo"></a>
 	<div class="name"> 
@@ -22,10 +22,10 @@
 	<h2>myPortal Login</h2>
 	<div class="form">
 		<form name="checkForm" action="welcome.html">
-	  		<label for="username">Username/Email:</label>
+	  		<label class="inputForm" for="username">Username/Email:</label>
 	  		<input type="text" placeholder="Username/Email" id="username" name="user" required>
-	  		<label for="password">Password:</label>
-	  		<input type="text" placeholder="Password" id="password" name="pass" required>
+	  		<label class="inputForm" for="password">Password:</label>
+	  		<input type="password" placeholder="Password" id="password" name="pass" required>
 	  		<button type="submit">Login</button>
 		</form>
 	</div>
