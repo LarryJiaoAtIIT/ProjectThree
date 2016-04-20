@@ -85,18 +85,21 @@ h1.home{
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
   color: white;
   font-size: 1.2em;
+  font-family:Roboto,sans-serif;
   text-decoration: none;
   transition: color 0.2s, background 0.5s;
 }
 
 .nav-item a:hover {
   color: #c74438;
+  font-family:Roboto,sans-serif;
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
 }
 /* Content Boxes - Will Provide Boxes with Links inside  ------------------------------------------------*/
 
 section.content1{	/* Box 1 next to Nav-bar */
 	border: 0.1em solid #a20000;
+	font-family:Roboto, sans-serif;
 	border-radius: 2em;
 	background-color:#222222;
 	padding: 1em;
@@ -111,6 +114,7 @@ section.content1{	/* Box 1 next to Nav-bar */
 }
 section.content2{ /* Box 2 next to Box 1; Needs to readjust for Media Queries */
 	border: 0.1em solid #a20000;
+	font-family:Roboto,sans-serif;
 	border-radius: 2em;
 	background-color:#222222;
 	padding: 1em;
@@ -168,7 +172,6 @@ img.logo{
 	text-decoration: none;
 	word-spacing:-0.25em;
 	margin-top: -1em;
-	
 	overflow:hidden;
   }
 
@@ -178,16 +181,11 @@ img.logo{
 .headwrapper .name .third{
 	color:white;
 	text-decoration: none;
-	
-	
-	
 }
 
 .headwrapper .name .second{
 	color:#A20000;
 	text-decoration: none;
-
-
 }
 
 
@@ -250,6 +248,7 @@ img.alert{	/* IIT Today Alert Image	*/
 table.prices{
 	width:100%;
 	height:auto;
+	margin-top:10em;
 	color:#CCCCCC;
 	border: 0.2em solid #AAAAAA;
 }
