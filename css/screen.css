@@ -10,7 +10,7 @@ ins{background-color:#ff9;color:#000;text-decoration:none}
 mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
 abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
+{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
@@ -246,6 +246,40 @@ img.alert{	/* IIT Today Alert Image	*/
 	height:90%;
 	
 }
+/*finance.html	--------------------------------------------------------------------------------------*/
+table.prices{
+	width:100%;
+	height:auto;
+	color:#CCCCCC;
+	border: 0.2em solid #AAAAAA;
+}
+tr.heading{
+	font-size:1.3em;
+	padding:1em;
+	color:red;
+}
+td.a{
+	font-size:1.2em;
+	color:green;
+}
+
+p.finaid{
+	font-size:1.1em;
+	line-height:1.1em;
+	color:#aaaaaa;
+}
+p.finaid2{
+	font-size:1.1em;
+	line-height:1.1em;
+	color:#aaaaaa;
+	padding-bottom:1.5em;
+}
+section#map{
+	width:45%;
+	height:45%;
+}
+
+
 /*Classregister.html	--------------------------------------------------------------------------------*/
 .term{
 	font-family:Roboto, sans-serif;
