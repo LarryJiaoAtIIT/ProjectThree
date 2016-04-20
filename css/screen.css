@@ -13,6 +13,17 @@ abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 {border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
+/*	-	-	-	-	MEDIA QUERIES, for Responsive Design	-	-	-	-	-	-	-	-	-	-	-	-	*/
+@media screen (max-width:54.6875em){	
+	section.content1{
+		padding-right:100%;
+	}
+	section.content2{
+		width:90%;
+		padding-top:100em;
+	}
+}
+
 
 /*	-	-	-	-	Universal CSS, for ALL/MOST Webpages After Index.html	-	-	-	-	-	-	*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
@@ -124,7 +135,7 @@ section.content2{ /* Box 2 next to Box 1; Needs to readjust for Media Queries */
 	width:35%;
 	height:40em;
 	position:absolute;
-	
+	overflow:hidden;
 	
 }
 section.content1 > h1.title, section.content2 > h1.title{	/* First set of Text in Box */
