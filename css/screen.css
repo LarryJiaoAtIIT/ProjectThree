@@ -239,16 +239,22 @@ label {
 
 
 /*Welcome.html	--------------------------------------------------------------------------------------*/
-div#awcc1460997599263{	/*	Weather Widget	*/
+div#awcc1461180631441{	/*	Weather Widget	*/
 	border-radius:0.8em;
-	padding-bottom:1em;
+	padding-top:1em;
 }
 img.alert{	/* IIT Today Alert Image	*/
 	width:100%;
 	height:auto;
+	padding-top:1em;
 	border-radius:0.8em;
 }
 
+h1.title2{
+	font-size:2em;
+	color:white;
+	padding-top:0.5em;
+}
 /*academics.html	-----------------------------------------------------------------------------------*/
 .academic-calendar{
 	border-radius:0.8em;
