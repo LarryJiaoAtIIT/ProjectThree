@@ -29,8 +29,9 @@ input,select{vertical-align:middle}
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body.inside{
 	background-color:#111111;	
-	font-family:Roboto, sans-serif;
-
+	font-family:Roboto, sans-serif !important;
+	/*	!Important should ensure that the font is the same, Google Maps API is
+		currently changing the font of the HTML.	*/
 }
 a:link{
 		color:#cccccc;
